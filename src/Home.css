@@ -1,0 +1,63 @@
+.todoItem{
+    padding:10px;
+    font-size: 1.2rem;;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 1%;
+    box-shadow: 2px 2px 2px rgb(219, 213, 213);
+    cursor: pointer;
+}
+
+.todoItem:hover{
+    border-top: 1px solid rgb(191, 109, 109);
+    border-bottom: 1px solid rgb(191, 109, 109);
+    box-shadow: 2px 2px 2px rgb(191, 109, 109);
+    cursor: pointer;
+}
+
+.todoItemLabel{
+    padding:10px;
+    cursor: pointer;
+}
+
+
+#page{
+    display: flex;
+    background-color: rgb(211, 153, 87);
+}
+
+.pageSection{
+    border: 2px solid gray;
+    width:45%;
+    margin: 2%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+#page h2{
+    text-align: center;
+}
+.addBack{
+    background-color: rgb(26, 66, 101);
+    color: white;
+    margin: 1% 1% 1% 5%;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.addBack:hover{
+    cursor: pointer;
+    background-color: black;
+   
+}
+
+.doneItem{
+    border: 1px solid gray
+}
+
+.addedTask{
+    width:90%;
+    font-size: 1.2rem;
+    margin-left: 4%;
+}
